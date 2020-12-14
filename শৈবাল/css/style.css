@@ -1,0 +1,66 @@
+body{
+    font-family: Montserrat, Kalpurush;
+    /* background-image: url(../Images/Bg.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+.logo-txt{
+    font-size: 30px; 
+    line-height: 60px;
+}
+.dropdown-menu{
+    background-color: rgba(0,0,0,0.8);
+    margin-top: 22.704px !important;
+    border-radius: 0px;
+}
+.dropdown-item:hover{
+    color: black !important;
+}
+dropdown-menu:hover{
+    color: black;
+}
+.banner{
+    height: 500px;
+    width: 100%;
+    background-image: url(../Images/Bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.banner .container{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: lighter;
+}
+.about .container{
+    font-size: 18px;
+}
+.facilities{
+    background-image: url(../Images/bg-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+
+/* responsive design properties */
+@media only screen and(min-width: 570px){
+    .facilities h4{
+        text-align: center;
+    }
+    .banner.container{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 993px){
+    .dropdown-menu{
+        background-color: rgba(0,0,0,0);
+        border: none;
+    }
+}
+

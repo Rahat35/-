@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="abc.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li class="navbar-hover">Courses <i class="fa fa-angle-double-down"></i> 
+                <ul class="navbar-hover-content">
+                    <li>Web Design</li>
+                    <li class="navbar-hover-two">Graphics <i class="fa fa-angle-double-right"></i>
+                        <ul class="navbar-hover-content-two">
+                            <li>Motion</li>
+                            <li>UI&UX</li>
+                            <li>Image</li>
+                        </ul>
+                    </li>
+                    <li>Digital</li>
+                </ul>
+            </li>
+            <li>Pricing</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+
+    <img src="Images/Sharee/1.jpeg" height="500" style="margin-top: 20px;" id="image">
+    <br>
+    <span>Color Varients</span> <br>
+    <button style="background-color: #08706d; padding: 20px; cursor: pointer; border: none; outline: none; border-radius: 4px;" onclick="document.getElementById('image').src='Images/Sharee/1.jpeg'"></button>
+    <button style="background-color: #ce5671; padding: 20px; cursor: pointer; border: none; outline: none; border-radius: 4px;" onclick="document.getElementById('image').src='Images/Sharee/2.jpeg'"></button>
+    <button style="background-color:#1b077a; padding: 20px; cursor: pointer; border: none; outline: none; border-radius: 4px;" onclick="document.getElementById('image').src='Images/Sharee/3.jpeg'"></button>
+    <button style="background-color:#720572; padding: 20px; cursor: pointer; border: none; outline: none; border-radius: 4px;" onclick="document.getElementById('image').src='Images/Sharee/4.jpeg'"></button>
+    <br> <span style="color: #bbb; margin-left: 20px;">Click or tap to Preview</span>
+</body>
+</html>
